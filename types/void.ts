@@ -1,4 +1,4 @@
-/* void类型
+/* void 类型
 -------------------------- */
 const consoleText = (text: string): void => {
   console.log(text)

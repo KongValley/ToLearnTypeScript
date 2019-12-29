@@ -1,0 +1,15 @@
+# TypeScript基础
+## 类型
+- number
+- boolean
+- string
+- array
+- tuple
+- enum
+- void
+- any
+- undefined
+- null
+- never
+- object
+- 类型断言
