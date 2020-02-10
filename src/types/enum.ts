@@ -6,6 +6,6 @@ enum Roles {
   USER
 }
 
-console.log(Roles.SUPER_ADMIN)
+console.log(Roles.SUPER_ADMIN);
 
-console.log(Roles[4])
+console.log(Roles[4]);

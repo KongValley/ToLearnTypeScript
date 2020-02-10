@@ -1,3 +1,3 @@
 /* null 类型，是其他类型的子类型
 -------------------------- */
-const n: null = null
+const n: null = null;

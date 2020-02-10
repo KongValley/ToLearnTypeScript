@@ -6,10 +6,10 @@ const getLength = (target: string | number): number => {
   } else {
     return target.toString().length
   }
-}
+};
 
-getLength(123)
-getLength('Apple')
+getLength(123);
+getLength('Apple');
 
 /* 可以使用自定义类型保护来简化
 -------------------------- */

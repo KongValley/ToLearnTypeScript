@@ -1,8 +1,8 @@
 /* any 类型
 -------------------------- */
-let anyValue: any = 123
+let anyValue: any = 123;
 
-anyValue = 'abc'
-anyValue = false
+anyValue = 'abc';
+anyValue = false;
 
-const anyArr: any[] = [1, 'a']
+const anyArr: any[] = [1, 'a'];

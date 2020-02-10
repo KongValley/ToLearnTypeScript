@@ -35,4 +35,4 @@ module.exports = {
       template: './src/template/index.html'
     })
   ]
-}
+};
