@@ -3,7 +3,7 @@
 let prop = 'name';
 
 const info = {
-  [prop]: 'kzp'
+  [prop]: 'chara'
 };
 
 console.log(info);

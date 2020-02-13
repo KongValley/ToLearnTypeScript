@@ -4,11 +4,12 @@ const s = Symbol();
 
 /* 基础特性
 -------------------------- */
-const s1 = Symbol('kzp');
-const s2 = Symbol('kzp');
+const s1 = Symbol('chara');
+const s2 = Symbol('chara');
 // console.log(s1 === s2); // 永远返回 false
 
-/* 如果 Symbol 参数是 Object 类型
+/*
+ * 如果 Symbol 参数是 Object 类型
  * 默认调用对象的 toString() 方法
 -------------------------- */
 const obj1 = {
