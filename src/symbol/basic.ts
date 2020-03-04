@@ -8,8 +8,7 @@ const s1 = Symbol('chara');
 const s2 = Symbol('chara');
 // console.log(s1 === s2); // 永远返回 false
 
-/*
- * 如果 Symbol 参数是 Object 类型
+/* 如果 Symbol 参数是 Object 类型
  * 默认调用对象的 toString() 方法
 -------------------------- */
 const obj1 = {
@@ -25,16 +24,20 @@ const obj1 = {
 
 /* 可以转成字符串型
 -------------------------- */
-console.log(s1.toString()); // Output: Symbol(kzp)
+console.log('%c 🍫 s1.toString(): ', 'font-size:20px;background-color: #3F7CFF;color:#fff;', s1.toString());
+// Output: chara
 
 const s3 = Symbol(2333);
 
-console.log(s3.toString()); // Output: Symbol(2333)
+console.log('%c 🥐 s3.toString(): ', 'font-size:20px;background-color: #3F7CFF;color:#fff;', s3.toString());
+// Output: 2333
 
 /* 可以直接取反
 -------------------------- */
-console.log(!s1); // Output: false
+console.log('%c 🍭 !s1: ', 'font-size:20px;background-color: #4b4b4b;color:#fff;', !s1);
+// Output: false
 
 /* 转化为布尔值
 -------------------------- */
-console.log(Boolean(s1)); // Output: true
+console.log('%c 🍵 Boolean(s1): ', 'font-size:20px;background-color: #465975;color:#fff;', Boolean(s1));
+// Output: true

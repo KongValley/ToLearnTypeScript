@@ -1,0 +1,1 @@
+import './symbol/use_in_object';
