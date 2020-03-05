@@ -24,20 +24,20 @@ const obj1 = {
 
 /* 可以转成字符串型
 -------------------------- */
-console.log('%c 🍫 s1.toString(): ', 'font-size:20px;background-color: #3F7CFF;color:#fff;', s1.toString());
+console.log('s1.toString(): ', s1.toString());
 // Output: chara
 
 const s3 = Symbol(2333);
 
-console.log('%c 🥐 s3.toString(): ', 'font-size:20px;background-color: #3F7CFF;color:#fff;', s3.toString());
+console.log('s3.toString(): ', s3.toString());
 // Output: 2333
 
 /* 可以直接取反
 -------------------------- */
-console.log('%c 🍭 !s1: ', 'font-size:20px;background-color: #4b4b4b;color:#fff;', !s1);
+console.log('!s1: ', !s1);
 // Output: false
 
 /* 转化为布尔值
 -------------------------- */
-console.log('%c 🍵 Boolean(s1): ', 'font-size:20px;background-color: #465975;color:#fff;', Boolean(s1));
+console.log('Boolean(s1): ', Boolean(s1));
 // Output: true
